@@ -1,7 +1,7 @@
 .home-about{
   background:radial-gradient(circle at 12% 100%,#ffe2b0f5 1%,#ffe2b0f5 5px,#0000 15%),radial-gradient(circle at 95% -15%,#da4df166 5%,#0000 30%),radial-gradient(circle at 100%,#c4f5e9b2 2%,#0000 35%);
   height: 170vh;
-  position: relative;
+  /* position: relative; */
 }
 .Home-sec{
     /* background:radial-gradient(circle at 12% 100%,#ffe2b0f5 1%,#ffe2b0f5 5px,#0000 15%),radial-gradient(circle at 95% -15%,#da4df166 5%,#0000 30%),radial-gradient(circle at 100%,#c4f5e9b2 2%,#0000 35%); */
@@ -176,8 +176,10 @@
       order: 1;
       justify-content: center;
       align-items: center;
-      padding: 80px 0px 0px;
-      margin: 55px 0px 0px;
+      /* padding: 80px 0px 0px;
+      margin: 55px 0px 0px; */
+      /* padding: 0;  smaller */
+      /* margin: 20px 0 0;    */
       /* flex-grow: 1; */
       /* height:50vh; */
     }
@@ -193,7 +195,7 @@
       padding-right: 15px ;
     }
     .img-sec> img{
-      max-width: 315px !important;
+      max-width: 315px;
     }
     
    }
@@ -210,11 +212,11 @@
         font-size: 40px;
       }
       .sub-section{
-        max-width: 420px !important;
+        max-width: 420px ;
         /* flex-grow: 1; */
       }
       .profile-sec>img{
-        max-width:350px !important ;
+        max-width:350px  ;
       }
       .Home-sec{
         min-height: 50vh;
