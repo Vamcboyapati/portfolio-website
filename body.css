@@ -189,8 +189,8 @@
     }
     .text-sec{
       margin-top: 30px;
-      padding-left: 15px !important;
-      padding-right: 15px !important;
+      padding-left: 15px;
+      padding-right: 15px ;
     }
     .img-sec> img{
       max-width: 315px !important;
