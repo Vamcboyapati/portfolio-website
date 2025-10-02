@@ -163,8 +163,8 @@ body{
       flex-wrap: wrap;
       justify-content: center;
       /* flex-direction: column; */
-      min-height:auto;
-      /* align-items: center; */
+      min-height:50vh;
+      align-items: center;
     }
     .sub-section{
       /* width: 70%; */
@@ -211,7 +211,7 @@ body{
         font-size: 14px;
       }
    .About-sec{
-      min-height: auto;
+      min-height: 50vh;
     }
    }
    
