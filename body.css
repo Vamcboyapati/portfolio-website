@@ -198,7 +198,9 @@ body{
     .img-sec> img{
       max-width: 315px;
     }
-    
+    .Home-sec{
+        min-height: 50vh;
+      }
    }
    @media (max-width:768px) {
       .sub-section>h2{
@@ -219,8 +221,6 @@ body{
       .profile-sec>img{
         max-width:350px  ;
       }
-      .Home-sec{
-        min-height: 50vh;
-      }
+      
     }
    
