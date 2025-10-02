@@ -214,7 +214,10 @@
         /* flex-grow: 1; */
       }
       .profile-sec>img{
-        max-width:380px !important ;
+        max-width:350px !important ;
+      }
+      .Home-sec{
+        min-height: 50vh;
       }
     }
    
