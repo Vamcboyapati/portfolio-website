@@ -6,7 +6,7 @@ body{
 }
 .Home-sec{
     /* background:radial-gradient(circle at 12% 100%,#ffe2b0f5 1%,#ffe2b0f5 5px,#0000 15%),radial-gradient(circle at 95% -15%,#da4df166 5%,#0000 30%),radial-gradient(circle at 100%,#c4f5e9b2 2%,#0000 35%); */
-    min-height: 100vh;
+    /* min-height: 100vh; */
     height: auto;
     /* width: 100%; */
    }
