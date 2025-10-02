@@ -23,7 +23,7 @@ body{
     max-width: 1320px;
     margin:auto;
     /* background-color: aqua; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     align-items: center;
     width: 100%;
@@ -161,7 +161,7 @@ body{
       /* flex-wrap: wrap; */
       justify-content: center;
       flex-direction: column;
-      height: auto;
+      /* height: auto; */
     }
     .sub-section{
       width: 70%;
