@@ -242,8 +242,11 @@
       .end-section{
       padding: 0px 10px 0px 0px;
     }
-      
+    .right-section h2{
+      font-size: 22px;
     }
+      
+    } 
     @media (min-width:1234px){
       .hams-menu{
         display: none;
