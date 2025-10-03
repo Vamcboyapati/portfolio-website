@@ -1,7 +1,7 @@
 body{
   height: 20000px;
 }
-.cont,.cont-2{
+.cont{
   background:radial-gradient(circle at 12% 100%,#ffe2b0f5 1%,#ffe2b0f5 5px,#0000 15%),radial-gradient(circle at 95% -15%,#da4df166 5%,#0000 30%),radial-gradient(circle at 100%,#c4f5e9b2 2%,#0000 35%) ;
   /* height: 170vh; */
   background-repeat: no-repeat center center;
@@ -11,6 +11,14 @@ body{
   /* margin-top: 100px; */
   /* position: relative; */
  
+}
+.cont-2{
+background:
+  radial-gradient(circle at 12% 0%, #ffe2b0f5 1%, #ffe2b0f5 5px, #0000 15%),
+  radial-gradient(circle at 95% 115%, #da4df166 5%, #0000 30%),
+  radial-gradient(circle at 100%, #c4f5e9b2 2%, #0000 35%);
+
+
 }
 /* .cont-2{
    background: 
@@ -68,7 +76,7 @@ body{
    .profile-sec> img{
     max-width: 70%;
     border-radius: 20px;
-    box-shadow: -1px 2px 10px #ccc;
+    /* box-shadow: 5px 2px 10px #ccc; */
    }
    @keyframes fadeInUp {
     from{
@@ -342,7 +350,7 @@ body{
     align-items: center;
     width: 100%;
     padding: 85px 30px 0px;
-    background-color: #9929fb;
+    /* background-color: #9929fb; */
  }
   .skill-sec{
     /* width: 50%; */
@@ -421,6 +429,12 @@ body{
     .detail{
       width: 80%;
       padding: 20px 20px;
+    }
+    .exp-sec li{
+      padding:5px 0px 0px 0px ;
+    }
+    .exp-title{
+      padding:20px 30px;
     }
    }
   
@@ -520,10 +534,13 @@ body{
       padding:0px 15px !important;
       width: 100%;
     }
-    .home-container,.About-sec,.Edu-sec,.skills-sec{
+    .home-container,.About-sec,.Edu-sec,.skills-sec,.exp-sec{
       min-height: auto;
     }
     .skill-sec h1,.skills-info h1{
       font-size: 20px;
+    }
+    .exp-sec h1{
+      font-size: 24px;
     }
     }
