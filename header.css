@@ -25,7 +25,7 @@
     .container{
       display: flex;
       align-items: center;
-      justify-content: left;
+      justify-content: space-between;
       max-width: 1320px;
       margin:0px auto;
     }
@@ -35,6 +35,7 @@
       justify-content: left !important;
       gap: 15px;
       flex-grow: 1;
+      /* flex-shrink: 2; */
     }
     .right-section>.logo{
       background-color:#9929fb ;
@@ -241,6 +242,8 @@
       }
       .end-section{
       padding: 0px 10px 0px 0px;
+      display: flex;
+      justify-content: center;
     }
     .right-section h2{
       font-size: 22px;

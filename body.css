@@ -222,17 +222,29 @@ body{
       }
       .sub-section>h1{
         text-align: center;
-        padding-top: 40px;
-        font-size: 40px;
+        padding-top: 20px;
+        font-size: 30px;
       }
       .home-container{
-        min-height: 50vh;
+        min-height: 0vh;
       }
       .About-sec{
         min-height: 50vh;
       }
       .about-container{
          padding: 30px 0px;
+      }
+      .profile-sec>img{
+        max-width: 250px;
+      }
+      .img-sec>img{
+        max-width: 250px;
+      }
+      .social>.bi{
+    font-size: 17px;
+      }
+      .social{
+        padding: 15px 25px;
       }
       
     }
