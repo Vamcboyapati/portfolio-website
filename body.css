@@ -2,7 +2,7 @@ body{
   background:radial-gradient(circle at 12% 100%,#ffe2b0f5 1%,#ffe2b0f5 5px,#0000 15%),radial-gradient(circle at 95% -15%,#da4df166 5%,#0000 30%),radial-gradient(circle at 100%,#c4f5e9b2 2%,#0000 35%);
   /* height: 170vh; */
   background-repeat: no-repeat;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   /* position: relative; */
 }
    .About-sec{
@@ -181,7 +181,7 @@ body{
       order: 1;
       justify-content: center;
       align-items: center;
-      /* padding: 85px 0px 0px; */
+      padding: 85px 0px 0px;
       /* margin: 55px 0px 0px; */ 
       /* padding: 0;  smaller */
       /* margin: 20px 0 0;    */
@@ -207,6 +207,7 @@ body{
       }
    .About-sec{
       min-height: 50vh;
+      padding: 85px 0px 0px;
     }
    }
    
