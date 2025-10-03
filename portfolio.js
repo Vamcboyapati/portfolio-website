@@ -10,3 +10,4 @@ menuLinks.forEach(link => {
     document.getElementById("hams").checked = false;
   });
 });
+
