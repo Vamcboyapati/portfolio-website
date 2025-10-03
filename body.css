@@ -160,7 +160,6 @@ body{
       flex-wrap: wrap;
       justify-content: center;
       /* flex-direction: column; */
-      min-height:50vh;
       align-items: center;
     }
     .sub-section{
@@ -253,6 +252,9 @@ body{
       margin-top: 30px;
       padding:0px 15px !important;
       width: 100%;
+    }
+    .home-container,.About-sec,.Edu-sec{
+      min-height: auto;
     }
     }
   
