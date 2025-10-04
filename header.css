@@ -226,6 +226,7 @@
       color: white;
       border-radius: 5px;
     }
+
     @media (max-width:1234px) {
        .bi-list{
       visibility: visible;

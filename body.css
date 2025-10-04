@@ -400,9 +400,8 @@ background:
   .sub-skill li{
     padding: 10px 0px;
   }
-
-
   .exp-sec{
+      background-color: whitesmoke;
       display: flex;
       align-items: center;
       min-height: 100vh;
@@ -457,6 +456,161 @@ background:
       font-size: 27px;
     }
     
+    .title-sec>.bi{
+      font-size: 50px;
+      color: #9929fb;
+      transition: all 0.3s ease-out;
+    }
+    .title-sec:hover>.bi{
+      scale: 105%;
+    }
+    .pro-sec{
+      min-height: 100vh;
+      background-color: whitesmoke;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 85px 20px 0px;
+    }
+    
+    .project-container{
+       /* width: 100%; */
+       display: flex;
+       align-items: center;
+       /* justify-content: space-evenly; */
+       /* flex-wrap: wrap; */
+       
+    }
+    .title-sec{
+      display: flex;
+      justify-content: center;
+      /* width: 100%; */
+      width:50%;
+      
+    }
+    .project-sec{
+      width: 80%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 20px;
+      column-gap: 20px;
+      justify-content: center;
+      padding: 0px;
+    }
+    .project-sec h3{
+      font-weight: 400;
+    }
+    .project-sec h3{
+      font-size: 16px;
+      padding: 20px 0px;
+    }
+    .project-sec h2{
+      font-size: 20px;
+      /* font-weight: 500; */
+    }
+    .title-sec h1{
+      font-size: 50px;
+      padding: 0px 20px;
+    }
+    .project{
+      /* border: solid 1px black; */
+      padding: 15px;
+      border-radius: 15px;
+      background-color: white;
+      transition: all 0.3s ease;
+    }
+    .project:hover{
+      scale: 105%;
+      box-shadow: 3px 3px 60px #ccc;
+    }
+    .Project-2,.Project-4{
+      transform: translateY(30px);
+    }
+
+    .cert-sec{
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background-color:whitesmoke;
+      padding: 85px 30px 0px;
+      /* justify-content: center; */
+    }
+    .cert-container{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      flex-direction: column;
+    }
+    .cert-title{
+      /* background-color: #9929fb; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 0px;
+      font-size: 30px;
+    }
+    .certi-info{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 30px;
+      column-gap: 30px;
+      padding: 30px 0px;
+      /* width: 80%; */
+    }
+    
+    .cert{
+      padding: 40px 40px;
+      background-color:white;
+      border-radius: 10px;
+      width: 40%;
+      /* background-color: #9929fb; */
+      transition: all 0.3s ease-out;
+      /* flex-grow: 1; */
+    }
+    .cert-title .bi{
+      color: #9929fb;
+      padding: 0px 15px;
+    }
+    .cert-1:hover{
+      background: url('./gfg.jpg');
+      background-size:contain;
+      background-repeat: no-repeat;
+      text-align: end;
+    }
+    .cert-2:hover{
+      background:url('./courseera.jpg');
+      background-size:contain;
+      background-repeat: no-repeat;
+      text-align: end;
+    }
+    .cert-3:hover{
+      background:url('./forsge.jpg');
+      background-size:contain;
+      background-repeat: no-repeat;
+      text-align: end;
+    }
+    
+    .certi-info h2{
+      font-size: 17px;
+    }
+    .certi-info h3{
+      font-weight: normal;
+      font-size:15px;
+    }
+    .cert-title>h1{
+      text-align: center;
+    }
+   
+    @media (max-width:1307px) {
+       .certi-info h2{
+      font-size: 15px;
+    }
+    .certi-info h3{
+      font-weight: normal;
+      font-size:14px;
+    }
+    }
    @media (max-width:930px) {
     .Edu-container{
       /* flex-wrap: wrap;
@@ -492,8 +646,14 @@ background:
     .exp-title{
       padding:20px 30px;
     }
+    .cert{
+      width: 100%;
+    }
+    .cert-title{
+      font-size: 17px;
+    }
+    
    }
-  
 
    @media (max-width:1234px){
     .home-container{
@@ -546,7 +706,23 @@ background:
    .text-sec>h2{
         font-size: 14px;
       }
-   
+   /* .cert-container{
+    flex-direction: column;
+   } */
+    .certi-info{
+      flex-direction: column;
+      justify-content: center;
+      
+    }
+    .cert{
+      width: 100%;
+    }
+    .cert h2{
+      font-size:28px;
+    }
+    .cert h3{
+      font-size: 19px;
+    }
    }
    
    @media (max-width:768px) {
@@ -577,7 +753,21 @@ background:
       .social{
         padding: 15px 25px;
       }
-      
+       .exp-sec li{
+      font-size: 12px;
+    }
+    .skills-info h1{
+      font-size: 17px !important;
+    }
+    .pro-sec h3{
+      font-size: 12px !important;
+    }
+    .cert h2{
+      font-size:15px;
+    }
+    .cert h3{
+      font-size: 14px;
+    }
     }
     @media (max-width:1100px){
       
@@ -590,7 +780,7 @@ background:
       padding:0px 15px !important;
       width: 100%;
     }
-    .home-container,.About-sec,.Edu-sec,.skills-sec,.exp-sec{
+    .home-container,.About-sec,.Edu-sec,.skills-sec,.exp-sec,.pro-sec,.cert-sec{
       min-height: auto;
     }
     .skill-sec h1,.skills-info h1{
@@ -599,4 +789,31 @@ background:
     .exp-sec h1{
       font-size: 24px;
     }
+   
+    .project-container{
+      flex-direction: column;
     }
+    .project-sec{
+      padding: 60px 0px 50px 0px;
+    }
+    .title-sec h1{
+      font-size: 40px;
+    }
+    .pro-sec h3{
+      font-size: 14px;
+    }
+    
+    }
+    @media (max-width:514px) {
+      .cert h2{
+      font-size:14px;
+    }
+    .cert h3{
+      font-size: 12px;
+    }
+    }
+      @media (max-width:491px){
+        .cert h3,.cert h2{
+          font-size: 10px;
+        }
+      }
