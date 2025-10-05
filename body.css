@@ -669,12 +669,19 @@ background:
       border-radius: 20px;
     }
     .contact-sec{
-      min-height: 50vh;
+      width: 100%;
+      min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 85px 30px 40px;
       background-color: whitesmoke;
+    }
+    .contact-container{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      /* padding: 0px 20px; */
     }
     .conct{
       display: flex;
@@ -698,10 +705,11 @@ background:
       color: rgb(153, 148, 148);
     }
     .conct{
-      margin-top: 40px;
-      padding: 30px;
+      /* margin-top: 40px; */
+      padding: 30px 20px;
       border-radius: 10px;
       transition: all 0.3s ease-out;
+      row-gap: 20px;
     }
     .conct:hover .bi{
       background-color:#9929fb;
@@ -958,7 +966,13 @@ background:
       font-size: 12px;
     }
     .conct h2{
-      font-size: 18px;
+      font-size: 15px;
+    }
+    .conct{
+      padding: 20px 10px;
+    }
+    .conct h3{
+      font-size: 13px;
     }
     }
     @media (max-width:421px) {
